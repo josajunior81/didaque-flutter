@@ -26,19 +26,27 @@ class _ApostilasStatefulWidgetState extends State<ApostilasStatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
-    Widget listItem(Color color, String title) => Container(
+    Widget listItem(Color color, String title, String image) => Container(
       height: 150.0,
       color: color,
-      child: Center(
-        child: Text(
-          "$title",
-          textAlign: TextAlign.center,
-          style: TextStyle(
-              color: Colors.white,
-              fontSize: 14.0,
-              fontWeight: FontWeight.bold
+      child: Row(
+        children: [
+          Image.asset(image
           ),
-        ),
+          Expanded(
+            child: Center(
+              child: Text(
+                "$title",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 14.0,
+                    fontWeight: FontWeight.bold
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
 
@@ -49,6 +57,16 @@ class _ApostilasStatefulWidgetState extends State<ApostilasStatefulWidget> {
         case 2: return Colors.red[300];
         case 3: return Colors.green[300];
         case 4: return Colors.blue[300];
+      }
+    }
+
+    String getImage(int index){
+      switch(index) {
+        case 0: return "images/apostila1.webp";
+        case 1: return "images/apostila2.webp";
+        case 2: return "images/apostila3.webp";
+        case 3: return "images/apostila4.webp";
+        case 4: return "images/apostila5.webp";
       }
     }
 
@@ -86,7 +104,7 @@ class _ApostilasStatefulWidgetState extends State<ApostilasStatefulWidget> {
             delegate: SliverChildBuilderDelegate(
                   (BuildContext context, int index) {
                     if (index > 4) return null;
-                return listItem(getColor(index), getTitle(index));
+                return listItem(getColor(index), getTitle(index), getImage(index));
               },
             ),
           )
