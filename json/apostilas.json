@@ -1,0 +1,551 @@
+[
+  {
+    "_id": 1,
+    "numeroLicao": 1,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Um convite à boa parte",
+    "catequese": "<i>Qual o tipo de relacionamento o Senhor nos chama?</i><br /><b>O Senhor nos chama a um relacionamento pessoal e íntimo com ele.</b><br /><br />\"Já não vos chamo servos, porque o servo não sabe o que faz o seu Senhor; mas tenho-vos chamado amigos, porque tudo quanto ouvi de meu Pai vos tenho dado a conhecer.\" (Jo 15.15).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 2,
+    "numeroLicao": 2,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "A base de nossa comunhão",
+    "catequese": "<i>Como podemos nos aproximar de Deus?</i><br /><b>Jesus é o novo e vivo caminho de acesso a Deus.</b><br /><br />\"Tendo, pois, irmãos, intrepidez para entrar no Santo dos Santos, pelo sangue de Jesus, pelo novo e vivo caminho que ele nos consagrou pelo véu, isto é, pela sua carne, e tendo grande sacerdote sobre a casa de Deus, aproximemo-nos, com sincero coração, em plena certeza de fé, tendo os corações purificados de má consciência ...\" (Hb 10.19-22).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 3,
+    "numeroLicao": 3,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Orando sem cessar",
+    "catequese": "<i>O que significa orar sem cessar?</i><br /><b>Orar sem cessar é manter uma conversação contínua com Deus. O Espírito Santo nos manda orar sem cessar.</b><br /><br />\"Orai sem cessar.\" (1Ts 5.17).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 4,
+    "numeroLicao": 4,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Dedicando um tempo especial à oração",
+    "catequese": "<i>O que necessitamos além de orar sem cessar?</i><br /><b>Necessitamos de momentos exclusivos, íntimos e solenes com o Senhor.</b><br /><br />\"Tu, porém, quando orares, entra no teu quarto, e, fechada a porta, orarás a teu Pai que está em secreto; e teu Pai que vê em secreto, te recompensará.\" (Mt 6.6).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 5,
+    "numeroLicao": 5,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Dando graças por tudo",
+    "catequese": "<i>O que demonstra o \"dar graças por tudo\"?</i><br /><b>O \"dar graças por tudo\" demonstra gratidão e confiança no Senhor.</b><br /><br />\"Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco\" (1Ts 5.18).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 6,
+    "numeroLicao": 6,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Louvando de coração",
+    "catequese": "<i>O que é o louvor?</i><br /><b>O louvor é o fruto dos lábios que confessam o nome do Senhor.</b><br /><br />\"Por meio de Jesus, pois, ofereçamos a Deus, sempre, sacrifício de louvor, que é o fruto de lábios que confessam o seu nome.\" (Hb 13.15).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 7,
+    "numeroLicao": 7,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Apresentando orações e súplicas",
+    "catequese": "<i>Pelo que Deus espera antes de realizar sua vontade?</i><br /><b>Deus espera pelas orações e súplicas antes de realizar a sua vontade.</b><br /><br />\"... com toda oração e súplica, orando em todo tempo no Espírito e para isto vigiando com toda perseverança e súplica por todos os santos.\" (Ef 6.18).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 8,
+    "numeroLicao": 8,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "A eficácia da oração",
+    "catequese": "<i>Qual é o proveito da oração?</i><br /><b>A oração é o nosso trabalho mais eficaz.</b><br /><br />\"E esta é a confiança que temos para com ele: que, se pedirmos alguma coisa segundo a sua vontade, ele nos ouve. E, se sabemos que ele nos ouve quanto ao que lhe pedimos, estamos certos de que obtemos os pedidos que lhe temos feito.\" (1Jo 5.14-15).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 9,
+    "numeroLicao": 9,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Jejuando para Deus",
+    "catequese": "<i>Quais são os frutos do jejum?</i><br /><b>O jejum nos quebranta, dá poder à oração e nos torna mais sensíveis à voz de Deus.</b><br /><br />\"E, servindo eles ao Senhor, e jejuando, disse o Espírito Santo: Separai-me agora a Barnabé e a Saulo para a obra a que os tenho chamado. Então, jejuando e orando, e impondo sobre eles as mãos, os despediram.\" (At 13.2-3).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 10,
+    "numeroLicao": 10,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Alimentando-se com a Palavra",
+    "catequese": "<i>O que a Palavra produz em nós?</i><br /><b>A Palavra de Deus nos alimenta, vivifica, produz fé, consola, guia e guarda de pecar.</b><br /><br />\"Jesus, porém, respondeu: Está escrito: Não só de pão viverá o homem, mas de toda palavra que procede da boca de Deus.\" (Mt 4.4).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 11,
+    "numeroLicao": 11,
+    "tituloApostila": "Comunhão com Deus",
+    "tituloLicao": "Sendo formado pela Palavra",
+    "catequese": "<i>Em que o discípulo deve ser instruído?</i><br /><b>Um discípulo deve ser instruído e catequizado em todo o conselho de Deus.</b><br /><br />\"Habite, ricamente, em vós a palavra de Cristo; instruí-vos e aconselhai-vos mutuamente em toda a sabedoria, louvando a Deus, com salmos, e hinos, e cânticos espirituais, com gratidão, em vosso coração.\" (Cl 3.16).",
+    "numeroApostila": 4,
+    "idioma": "PT"
+  },
+  {
+    "_id": 12,
+    "numeroLicao": 1,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Jesus existia antes de todas as coisas",
+    "catequese": "<b>Jesus existia antes de todas as coisas</b><br /><br />\"No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Ele estava no princípio com Deus. Todas as coisas foram feitas por intermédio dele, e sem ele nada do que foi feito se fez.\" Jo 1.1-3",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 13,
+    "numeroLicao": 2,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Tornou-se homem",
+    "catequese": "... Cristo Jesus, subsistindo em forma de Deus, não considerou o ser igual a Deus coisa a que se devia aferrar; antes, a si mesmo se esvaziou, assumindo a forma de servo, tornando-se em semelhança de homens; e, reconhecido em figura humana, a si mesmo se humilhou, tornando-se obediente até à morte e morte de cruz.\" Fp 2.6-8.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 14,
+    "numeroLicao": 3,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Sua vida foi perfeita e irrepreensível",
+    "catequese": "… o qual não cometeu pecado, nem na sua boca se achou engano\" 1Pe 2.22",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 15,
+    "numeroLicao": 4,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Sua obra foi tremenda e grandiosa",
+    "catequese": "Como Deus ungiu a Jesus de Nazaré com o Espírito Santo e poder, o qual andou por toda parte, fazendo o bem e curando a todos os oprimidos do diabo, porque Deus era com ele.\" At 10.38.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 16,
+    "numeroLicao": 5,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Morreu pelos nossos pecados",
+    "catequese": "Aquele que não conheceu pecado, Deus o fez pecado por nós, para que nele fôssemos feitos justiça de Deus.\" 2Co 5.21<br />\"Mas ele foi ferido pelas nossas transgressões e moído pelas nossas iniqüidade; o castigo que nos traz a paz estava sobre ele, e pelas suas pisaduras fomos sarados. Todos nós andávamos desgarrados como ovelhas; cada um se desviava pelo caminho, mas o Senhor fez cair sobre ele a iniqüidade de nós todos.\" Is 53.5-6.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 17,
+    "numeroLicao": 6,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Ressuscitou",
+    "catequese": "… ao qual Deus ressucitou, rompendo os grilhões da morte…\" At 2.24",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 18,
+    "numeroLicao": 7,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Foi exaltado",
+    "catequese": "Esteja absolutamente certa, pois, toda a casa de Israel de que a este Jesus, que vós crucificastes, Deus o fez Senhor e Cristo\" At 2.36.<br />\"Pelo que também Deus o exaltou sobremaneira e lhe deu o nome que está acima de todo nome para que ao nome de Jesus se dobre todo joelho nos céus, na terra e debaixo da terra, e toda língua confesse que Jesus Cristo é Senhor, para glória de Deus Pai\" Fp 2.9-11.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 19,
+    "numeroLicao": 8,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "E Voltará",
+    "catequese": "Então, aparecerá no céu o sinal do Filho do Homem: todos os povos da terra se lamentarão e verão o Filho do Homem vindo sobre as nuvens do céu, com poder e muita glória.\" Mt 21.30.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 20,
+    "numeroLicao": 9,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "A ordem que Jesus nos deu",
+    "catequese": "<i>O que Jesus nos mandou fazer?</i><br /><b>Jesus nos mandou fazer discípulos.</b><br /><br />\"Jesus, aproximando-se, falou-lhes, dizendo: Toda a autoridade me foi dada no céu e na terra. Ide, ortanto, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho e do Espírito Santo; ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação dos séculos.\" Mt 28.18-20.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 21,
+    "numeroLicao": 10,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "Do que devemos falar para fazer discípulos",
+    "catequese": "<i>Do que devemos falar para fazer discípulos?</i><br /><b>Falar de Jesus e da porta do reino.</b><br /><i>Qual a porta do reino?</i><br /><b>Arrependimento, Batismo em Cristo e dom do Espírito Santo.</b><br /><i>Qual o caminho do reino?</i><br /><b>Guardar todas as coisas que Jesus ordenou.</b><br /><br />\"Respondeu-lhes Pedro: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para remissão dos vossos pecados, e receberei o dom do Espírito Santo.\" At. 2.38.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 22,
+    "numeroLicao": 11,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "O Arrependimento (1ª parte)",
+    "catequese": "<i>O que é arrependimento?</i><br /><b>Arrependimento é uma mudança de atitude interior.</b><br /><i>Qual a mudança interior que acontece no arrependimento?</i><br /><b>Deixar de ser independente para ser dependente de Deus</b><br /><br />\"Então, convocando a multidão e juntamente os seus discípulos disse-lhes: Se alguém que vir após mim, a si mesmo se negue, tome a sua cruz e siga-me. Quem quiser, pois, salvar a sua vida perde-la-á; mas quem perder a sua vida por causa de mim e do evangelho salva-la-á. Que aproveita ao homem ganhar o mundo inteiro e perder sua alma?\" Mc 8.34-36",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 23,
+    "numeroLicao": 12,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "O Arrependimento (2ª parte)",
+    "catequese": "<i>O que é necessário para mudar de atitude?</i><br /><b>Negar a si mesmo, tomar a cruz, perder a vida e renunciar a tudo</b><br /><br />\"Assim, pois, todo aquele que dentre vós não renuncia a tudo quanto tem não pode ser meu discípulo.\" Lc 14.33.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 24,
+    "numeroLicao": 13,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "O Batismo (1ª parte )",
+    "catequese": "<i>O que acontece no batismo?</i><br /><b>Somos colocados em Cristo.</b><br /><br />\"Porque todos quantos fostes batizados em Cristo de Cristo vos revstistes.\" Gl 3.27.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 25,
+    "numeroLicao": 14,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "O Batismo (2ª parte )",
+    "catequese": "<i>O que acontece no batismo?</i><br /><b>Somos colocados em Cristo.</b><br /><br />\"Porque todos quantos fostes batizados em Cristo de Cristo vos revstistes.\" Gl 3.27.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 26,
+    "numeroLicao": 15,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "O Dom do Espírito Santo (1ª parte)",
+    "catequese": "<i>O que acontece no batismo com o Espírito Santo?</i><br /><b>Recebemos poder para testemunhar e podemos manifestar os dons</b><br /><br />\"... mas recebereis poder, ao descer sobre vós o Espírito Santo e sereis minhas testemunhas tanto em Jerusalém como em toda Judéia e Samaria e até aos confins da terra.\"At 1.8.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 27,
+    "numeroLicao": 16,
+    "tituloApostila": "Princípios Elementares",
+    "tituloLicao": "O Dom do Espírito Santo (2ª parte)",
+    "catequese": "<i>O que acontece no batismo com o Espírito Santo?</i><br /><b>Recebemos poder para testemunhar e podemos manifestar os dons</b><br /><br />\"... mas recebereis poder, ao descer sobre vós o Espírito Santo e sereis minhas testemunhas tanto em Jerusalém como em toda Judéia e Samaria e até aos confins da terra.\"At 1.8.",
+    "numeroApostila": 1,
+    "idioma": "PT"
+  },
+  {
+    "_id": 28,
+    "numeroLicao": 1,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O propósito de Deus ao criar o homem",
+    "catequese": "<i>Qual o propósito de Deus quando criou o homem?</i><br /><b>Deus queria uma família de homens semelhantes a Ele.</b><br /><br />\"Também disse Deus; Façamos o homem à nossa imagem conforme a nossa semelhança.\" Gn 1.26",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 29,
+    "numeroLicao": 2,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O que aconteceu quando o homem pecou?",
+    "catequese": "<i>O que aconteceu quando o homem pecou?</i><br /><b>O homem se tornou inútil para o propósito de Deus.</b><br /><i>Deus desistiu do seu propósito por causa do pecado?</i><br /><b>Não. Deus não desistiu do seu propósito.</b><br /><br />\"Todos se extraviaram e juntamente se fizeram inúteis.\" Rm 3.12",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 30,
+    "numeroLicao": 3,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O que Deus fez para realizar o Seu propósito?",
+    "catequese": "<i>Se o homem se tornou inútil, como Deus tem esperança de realizar o Seu propósito?</i><br /><b>Ele nos dá uma nova vida em Cristo. A esperança de Deus é a vida de Cristo em nós.</b><br /><br />\"E, assim, se alguém está em Cristo, é nova criatura; as coisas antigas já passaram; eis que se fizeram novas.\" 2 Co 5.17<br />\"Cristo em vós, a esperança da glória.\" Cl 1.27",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 31,
+    "numeroLicao": 4,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Qual o propósito de Deus hoje?",
+    "catequese": "<i>Qual é o propósito de Deus hoje?</i><br /><b>Deus quer uma família de muitos filhos semelhantes a Jesus.</b><br /><i>Por que uma família?</i><br /><b>Porque Deus quer unidade.</b><br /><i>Por que muitos filhos?</i><br /><b>Porque Deus quer quantidade.</b><br /><i>Por que semelhantes a Jesus?</i><br /><b>Porque Deus quer qualidade.</b><br /><br />\"Sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus, daqueles que são chamados segundo o seu propósito. Porquanto aos que de antemão conheceu, também os predestinou para serem conformes à imagem de seu Filho, a fim de que ele seja o primogênito entre muitos irmãos.\" Rm 8.28-29<br />\"Até que todos cheguemos à unidade da fé e do pleno conhecimento do Filho de Deus, à ser homem perfeito, à medida da estatura da plenitude de Cristo.\" Ef 4.13",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 32,
+    "numeroLicao": 5,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Devemos ser como Jesus",
+    "catequese": "<i>Mas o propósito de Deus não é a salvação do homem?</i><br /><b>Não, a salvação é o meio para alcançar o propósito. Seu propósito é que sejamos semelhantes a Jesus.</b><br />\"Aquele que diz que está nele, deve andar como ele andou.(1Jo 2.6)\"<br /><br /><i>Em que devemos ser como Jesus?</i><br /><b>Ser mansos e humildes como Jesus</b><br />\"Tomai sobre vós o meu jugo e aprendei de mim que sou manso e humilde de coração e achareis descanso para vossas almas. (Mt 11.29)\"<br /><b>Ser santos como Jesus</b><br />\"Como é santo aquele que vos chamou, sede vós também santos em todo o vosso procedimento. (1Pe 1.15)\"<br /><b>Servir como Jesus</b><br />\"Ora, se eu, sendo o Senhor e o Mestre, vos lavei os pés, também vós deveis lavar os pés uns dos outros. (Jo 13.14)\"<br /><b>Pregar ao mundo como Jesus</b><br />\"Assim como tu me enviaste ao mundo, também eu os enviei ao mundo. (Jo 17.18)\"<br /><b>Perdoar como Jesus</b><br />\"Assim como o Senhor vos perdoou, assim também perdoai vós. (Cl 3.13)\"<br /><b>Amar como Jesus</b><br />\"Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis unsaos outros. (Jo 13.34)\"<br />",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 33,
+    "numeroLicao": 6,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Quem são os sacerdotes?",
+    "catequese": "<i>Quem são os sacerdotes na igreja?</i><br /><b>Todos os santos são sacerdotes.</b><br /><br />\"Vós, porém, sois raça eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus, a fim de proclamardes as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz.\" 1 Pe 2.9",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 34,
+    "numeroLicao": 7,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Quem edifica a Igreja?",
+    "catequese": "<i>Quem edifica o corpo de Cristo?</i><br /><b>O corpo de Cristo edifica o corpo de Cristo.</b><br /><br />\"E ele mesmo concedeu uns para apóstolos, outros para profetas, outros para evangelistas e outros para pastores e mestres, com vistas ao correto ordenamento dos santos para o desempenho do seu serviço, para a edificação do corpo de Cristo.\" Ef 4.11-12",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 35,
+    "numeroLicao": 8,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O ministério de testemunhas (1ª parte)",
+    "catequese": "<i>Como iniciamos o serviço de fazer discípulos?</i><br /><b>Sendo testemunhas e proclamadores.</b><br /><br />\"Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.\" At 1.8",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 36,
+    "numeroLicao": 9,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O ministério de testemunhas (2ª parte)",
+    "catequese": "<i>Como iniciamos o serviço de fazer discípulos?</i><br /><b>Sendo testemunhas e proclamadores.</b><br /><br />\"Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.\" At 1.8",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 37,
+    "numeroLicao": 10,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O ministério das juntas e ligamentos",
+    "catequese": "<i>O que são juntas e ligamentos no corpo de Cristo?</i><br /><b>Juntas e ligamentos no corpo de Cristo são relações fortes e resistentes entre os seus membros.</b><br /><i>Para que servem as juntas e ligamentos?</i><br /><b>Para unir, alimentar e edificar o corpo de Cristo.</b><br /><br />\"Mas, seguindo a verdade em amor, cresçamos em tudo naquele que é o cabeça, Cristo, de quem todo o corpo, bem ajustado e ligado pelo auxílio de todas as juntas, segundo a justa cooperação de cada parte, efetua o seu próprio aumento para a edificação de si mesmo em amor.\" Ef 4.15-16",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 38,
+    "numeroLicao": 11,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Juntas e ligamentos de discipulado (1ª parte)",
+    "catequese": "<i>Qual é a função do discipulador?</i><br /><b>Ensinar a guardar todas as coisas que Jesus ordenou.</b><br /><br />\"Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação do século.\" Mt 28.19-20",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 39,
+    "numeroLicao": 12,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Juntas e ligamentos de discipulado (2ª parte)",
+    "catequese": "<i>O que é necessário para ser discipulado?</i><br /><b>Ser manso, humilde e submisso.</b><br /><br />\"... sujeitando-vos uns aos outrosno temor de Cristo.\" Ef 5.21",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 40,
+    "numeroLicao": 13,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Juntas e ligamentos de companheirismo (1ª parte)",
+    "catequese": "<i>Porque o discipulado e o companheirismo são tão importantes?</i><br /><b>Porque unem o corpo por juntas e ligamentos.</b><br /><i>Quais são as principais atitudes no companheirismo?</i><br /><b>Amor, submissão, transparência e perdão.</b><br /><br />\"Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros.\" Jo 13.34",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 41,
+    "numeroLicao": 14,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "Juntas e ligamentos de companheirismo (2ª parte)",
+    "catequese": "<i>Quais são as principais atividades no companheirismo?</i><br /><b>Orar, aconselhar, servir e fazer discípulos.</b><br /><i>Qual é o fruto de tudo isto?</i><br /><b>A edificação do corpo em amor.</b><br /><br />\"Habite ricamente em vós a palavra de Cristo; Instrui-vos e aconselhai-vos mutuamente em toda a sabedoria.\" Cl 3.16",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 42,
+    "numeroLicao": 15,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "A necessidade de dar fruto",
+    "catequese": "<i>O que o agricultor exige do ramo?</i><br /><b>Todo ramo deve dar frutos.</b><br /><i>Qual é o fruto que o ramo deve dar?</i><br /><b>A multiplicação da vida de Cristo.</b><br /><br />\"Eu vos escolhi a vós outros e vos designei para que vades e deis frutos, e o vosso fruto permaneça.\" Jo 15.16",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 43,
+    "numeroLicao": 16,
+    "tituloApostila": "Propósito Eterno",
+    "tituloLicao": "O trabalho nas casas",
+    "catequese": "<i>Qual é o motivo do encontro do grupo caseiro?</i><br /><b>A obra do grupo caseiro é o desenvolvimento do serviço dos santos.</b>",
+    "numeroApostila": 2,
+    "idioma": "PT"
+  },
+  {
+    "_id": 44,
+    "numeroLicao": 1,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Jesus é a nossa vida",
+    "catequese": "<i>Quem é Jesus para nós?</i><br /><b>Jesus é a própria vida em nós.</b><br /><br />\"\"Respondeu-lhe Jesus: Eu sou o caminho, e a verdade, e a vida; ninguém vem ao Pai senão por mim.\" (Jo 14.6).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 45,
+    "numeroLicao": 2,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Os três aspectos",
+    "catequese": "<i>Quais são os três aspectos do pecado no homem?</i><br /><b>Os três aspectos do pecado no homem são: a condenação, a escravidão e a habitação.</b>",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 46,
+    "numeroLicao": 3,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Cristo: completa solução para o pecado",
+    "catequese": "<i>Quais são os três aspectos da salvação em Cristo?</i><br /><b>Em Cristo temos salvação completa: o perdão, a libertação e a glorificação.</b>",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 47,
+    "numeroLicao": 4,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Deus é absolutamente santo e justo",
+    "catequese": "<i>Como Deus vê os pecados dos homens?</i><br /><b>Deus é Santo e Justo, Ele ama o pecador, mas abomina o pecado</b><br /><br />\"A ira de Deus se revela do céu contra toda impiedade e perversão dos homens que detêm a verdade pela injustiça;\" (Rm 1.18).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 48,
+    "numeroLicao": 5,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Todos os homens estão condenados",
+    "catequese": "<i>Qual é o primeiro aspecto do pecado?</i><br /><b>Todo homem está condenado ao castigo eterno.</b><br /><br />\"Ora, conhecendo eles a sentença de Deus, de que são passíveis de morte os que tais coisas praticam, não somente as fazem, mas tam-bém aprovam os que assim proce-dem.\" (Rm 1.32).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 49,
+    "numeroLicao": 6,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "A morte de Cristo: a única solução para a condenação",
+    "catequese": "<i>O que nos libertou da condenação do pecado?</i><br /><b>A morte de Cristo, em nosso lugar, nos libertou da condenação. Assim somos justificados</b><br /><br />\"Mas Deus prova o seu próprio amor para conosco pelo fato de ter Cristo morrido por nós, sendo nós ainda pecadores. Logo, muito mais agora, sendo justificados pelo seu sangue, seremos por ele salvos da ira.\" (Rm 5.8-9).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 50,
+    "numeroLicao": 7,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Somos justificados pela fé em Cristo",
+    "catequese": "<i>Como somos justificados?</i><br /><b>Somos justificados pela fé, e não pelo nosso procedimento.</b><br /><br />\"Justificados, pois, mediante a fé, temos paz com Deus por meio de nosso Senhor Jesus Cristo.\" (Rm 5.1)",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 51,
+    "numeroLicao": 8,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "A importância das obras",
+    "catequese": "<i>Se a justificação é pela fé, podemos continuar na prática do pecado?</i><br /><b>Se alguém vive na prática do pecado, tem uma fé falsa. A fé que justifica é a mesma que santifica.</b><br /><br />\"Assim, também a fé, se não tiver obras, por si só está morta.\" (Tg 2.17).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 52,
+    "numeroLicao": 9,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "O segredo da vida abundante",
+    "catequese": "<i>Qual é a chave para a vida em abundância?</i><br /><b>A chave da vida em abundância é viver por meio de Cristo.</b><br /><br />\"Nisto se manifestou o amor de Deus em nós: em haver Deus enviado o seu Filho unigênito ao mundo, para vivermos por meio dele.\" (1Jo 4.9).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 53,
+    "numeroLicao": 10,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "Todos os homens são escravos",
+    "catequese": "<i>Qual é o segundo aspecto do pecado?</i><br /><b>Todo homem é escravo do pecado.</b><br /><br />\"Replicou-lhes Jesus: Em verdade, em verdade vos digo: todo o que comete pecado é escravo do pecado.\" (Jo 8.34).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 54,
+    "numeroLicao": 11,
+    "tituloApostila": "Vida em Cristo",
+    "tituloLicao": "A vida de Cristo em nós nos liberta da escravidão",
+    "catequese": "<i>O que nos liberta da escravidão do pecado?</i><br /><b>A vida de Cristo em nós, nos liberta da escravidão. Assim somos santificados.</b><br /><br />\"Estou crucificado com Cristo, logo já não sou eu quem vive, mas Cristo vive em mim...\" (Gl 2.20a).",
+    "numeroApostila": 3,
+    "idioma": "PT"
+  },
+  {
+    "_id": 55,
+    "numeroLicao": 1,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Segunda",
+    "catequese": "<b>Didaquê</b><br/>Mt 5:1-26<br/><br/><b>Kerigma</b><br/>Jo 3:1-21",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  },
+  {
+    "_id": 56,
+    "numeroLicao": 2,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Terça",
+    "catequese": "<b>Didaquê</b><br/>Mt 5:27-48<br/><br /><b>Kerigma</b><br/>Jo 6:27-40",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  },
+  {
+    "_id": 57,
+    "numeroLicao": 3,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Quarta",
+    "catequese": "<b>Didaquê</b><br/>Mt 6:1-18 <br/><br /><b>Kerigma</b><br/>Jo 6:41-59",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  },
+  {
+    "_id": 58,
+    "numeroLicao": 4,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Quinta",
+    "catequese": "<b>Didaquê</b><br/>Mt 6:19-34<br/><br /><b>Kerigma</b><br/>Jo 7:37-39; Jo 14:16-31",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  },
+  {
+    "_id": 59,
+    "numeroLicao": 5,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Sexta",
+    "catequese": "<b>Didaquê</b><br/>Mt 7:1-12<br/><br /><b>Kerigma</b><br/>Jo 15:26; 16:15",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  },
+  {
+    "_id": 60,
+    "numeroLicao": 6,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Sábado",
+    "catequese": "<b>Didaquê</b><br/>Mt 7:13-29<br/><br /><b>Kerigma</b><br/>Rm5:1-2, 10, 11; 6:4-6; 8:1-11; Gl 2:19-21; Cl 1:13-20",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  },
+  {
+    "_id": 61,
+    "numeroLicao": 7,
+    "tituloApostila": "Meditação Semanal",
+    "tituloLicao": "Domingo",
+    "catequese": "1. O que Deus me falou nesta semana?<br /><br />2. Há algo para compartilhar ou confessar a outros?<br /><br />3. Qual o desafio para a próxima semana?",
+    "numeroApostila": 5,
+    "idioma": "PT"
+  }
+]
