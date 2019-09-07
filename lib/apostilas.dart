@@ -37,11 +37,11 @@ class _ApostilasStatefulWidgetState extends State<ApostilasStatefulWidget> {
 
     Color getColor(int index){
       switch(index) {
-        case 0: return Colors.blueGrey[300];
+        case 0: return Colors.blueGrey[200];
         case 1: return Colors.orange[200];
-        case 2: return Colors.red[300];
-        case 3: return Colors.green[300];
-        case 4: return Colors.blue[300];
+        case 2: return Colors.red[200];
+        case 3: return Colors.green[200];
+        case 4: return Colors.brown[200];
       }
     }
 

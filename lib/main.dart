@@ -26,7 +26,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [ApostilasStatefulWidget(), BibliaWidget()];
+  final List<Widget> _children = [ApostilasStatefulWidget(), BibliaStatefulWidget()];
 
   void onTabTapped(int index) {
     setState(() {
@@ -37,30 +37,12 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: NestedScrollView(
-        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
-          return <Widget>[
-            SliverAppBar(
-              expandedHeight: 200.0,
-              floating: false,
-              pinned: true,
-              flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Text("Didaquê",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16.0,
-                      )),
-                  background: Image.asset(
-                    "images/top.jpg",
-                    fit: BoxFit.cover,
-                  )),
-            ),
-          ];
-        },
-        body: Center(
-          child: _children[_currentIndex],
-        ),
+      appBar: AppBar(
+        title: Text('Didaquê', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+        backgroundColor: Colors.grey[100],
+    ),
+      body: Center(
+        child: _children[_currentIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: onTabTapped,
