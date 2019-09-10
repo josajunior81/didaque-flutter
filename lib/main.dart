@@ -12,7 +12,8 @@ class DidaqueApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
-      home: Home(),
+      theme: ThemeData(fontFamily: 'Monstserrat'),
+      home: ApostilasWidget(),
     );
   }
 }
@@ -26,7 +27,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [ApostilasStatefulWidget(), BibliaStatefulWidget()];
+  final List<Widget> _children = [ApostilasWidget(), BibliaStatefulWidget()];
 
   void onTabTapped(int index) {
     setState(() {
