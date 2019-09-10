@@ -13,7 +13,7 @@ class DidaqueApp extends StatelessWidget {
     return MaterialApp(
       title: _title,
       theme: ThemeData(fontFamily: 'Monstserrat'),
-      home: ApostilasWidget(),
+      home: Home(),
     );
   }
 }

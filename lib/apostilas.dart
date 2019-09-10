@@ -1,14 +1,13 @@
 import 'package:didaque_flutter/detalhe_apositla.dart';
 import 'package:flutter/material.dart';
 
-class ApostilasWidget extends StatelessWidget {
-  const ApostilasWidget({Key key, this.photo, this.onTap, this.width})
-      : super(key: key);
+class ApostilasWidget extends StatefulWidget {
+  ApostilasWidget({Key key}) : super(key: key);
 
-  final String photo;
-  final VoidCallback onTap;
-  final double width;
-
+  @override
+  _ApostilasWidgetState createState() => _ApostilasWidgetState();
+}
+class _ApostilasWidgetState extends State<ApostilasWidget> {
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -24,12 +23,12 @@ class ApostilasWidget extends StatelessWidget {
 
   void showDetails(int index, BuildContext context) {
     Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-      return ApostilaDetalhes(getTitle(index));
+      return ApostilaDetalhesWidget(getTitle(index), index);
     }));
   }
 
   Widget listItem(int position, BuildContext context) => Hero(
-        tag: getTitle(position),
+        tag: position,
         child: Material(
           child: InkWell(
             onTap: () => showDetails(position, context),
