@@ -12,7 +12,7 @@ class DidaqueApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
-      theme: ThemeData(fontFamily: 'Monstserrat'),
+      theme: ThemeData(fontFamily: 'Montserrat'),
       home: ApostilasWidget(),
     );
   }
@@ -39,9 +39,12 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Didaquê', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+        title: Text(
+          'Didaquê',
+          style: TextStyle(fontFamily: 'GFS Didot'),
+        ),
         backgroundColor: Colors.grey[100],
-    ),
+      ),
       body: Center(
         child: _children[_currentIndex],
       ),

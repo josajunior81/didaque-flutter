@@ -65,6 +65,12 @@ flutter:
           style: italic
         - asset: fonts/Montserrat/Montserrat-Bold.ttf
           weight: 700
+    - family: Caesar Dressing
+      fonts:
+        - asset: fonts/Caesar_Dressing/CaesarDressing-Regular.ttf
+    - family: GFS Didot
+      fonts:
+        - asset: fonts/GFS_Didot/GFSDidot-Regular.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

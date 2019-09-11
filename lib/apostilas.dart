@@ -24,7 +24,7 @@ class _ApostilasWidgetState extends State<ApostilasWidget> {
       appBar: AppBar(
         title: Text(
           'Didaquê',
-          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+          style: TextStyle(color: Colors.black, fontFamily: 'GFS Didot'),
         ),
         backgroundColor: Colors.grey[100],
       ),

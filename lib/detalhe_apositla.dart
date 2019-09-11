@@ -1,4 +1,3 @@
-import 'package:didaque_flutter/apostilas.dart';
 import 'package:didaque_flutter/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
