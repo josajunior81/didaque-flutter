@@ -17,21 +17,32 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
   Widget build(BuildContext context) {
     timeDilation = 5.0; // 1.0 means normal animation speed.
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(Utils.getTitle(widget.index)),
-        backgroundColor: Utils.getColor(widget.index),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(40.0),
-        child: SizedBox.expand(
-          child: Hero(
-            tag: widget.index,
-            child: Image.asset(
-              Utils.getTitle(widget.index),
-              fit: BoxFit.contain,
+    return SafeArea(
+      child: Material(
+        child: CustomScrollView(
+          slivers: [
+            SliverAppBar(
+              pinned: true,
+              expandedHeight: 200,
+              backgroundColor: Utils.getColor(widget.index),
+              flexibleSpace: FlexibleSpaceBar(
+                title: Text(Utils.getTitle(widget.index)),
+                centerTitle: true,
+                collapseMode: CollapseMode.parallax,
+                background: Hero(
+                  tag: widget.index,
+                  child: Image.asset(Utils.getImage(widget.index)),
+                ),
+              ),
             ),
-          ),
+            SliverList(
+              delegate: SliverChildBuilderDelegate(
+                (_, index) => ListTile(
+                  title: Text("Index: $index"),
+                ),
+              ),
+            )
+          ],
         ),
       ),
     );
