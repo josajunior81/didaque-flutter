@@ -16,37 +16,36 @@ class ApostilaDetalhesWidget extends StatefulWidget {
 }
 
 class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
-  List<Widget> licoes;
+  List<Widget> licoes = [];
 
   void carregarApostila(var jsonApostilas) async {
     final jsonResponse = json.decode(jsonApostilas);
-    ApostilasList apostilas = ApostilasList.fromJson(jsonResponse);
-    List<Apostila> list = apostilas.apositlas
-        .where((i) => i.numeroApostila == (widget.index + 1))
-        .toList();
-    int i = 0;
-    licoes = List<Widget>(list.length);
-    list.forEach((item) {
-      licoes[i] = cardLicao(item);
-      i++;
+    Apostila apostila = Apostila.fromJson(jsonResponse);
+    licoes.length = 0;
+    apostila.licoes.forEach((item) {
+      licoes.add(cardLicao(item));
     });
   }
 
-  Widget cardLicao(Apostila item) => Expanded(
-    child: Card(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          ListTile(
-            title: Text(item.catequese),
+  Widget cardLicao(Licao licao) => SizedBox(
+        padding: const EdgeInsets.all(15),
+        child: Card(
+          child: Column(
+            children: [
+              Text(licao.titulo,
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+              ListView.builder(
+                  itemCount: licao.catequese.textos.length,
+                  itemBuilder: (_, index) {
+                    return Text(licao.catequese.textos[index].texto);
+                  })
+              ],
           ),
-        ],
-      ),
-    ),
-  );
+        ),
+      );
 
   Future<String> carregarJson() async {
-    return await rootBundle.loadString("assets/apostilas.json");
+    return await rootBundle.loadString("assets/apostila1.json");
   }
 
   @override
@@ -56,7 +55,7 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
     return FutureBuilder<String>(
       future: carregarJson(),
       builder: (context, snapshot) {
-        if(snapshot.hasData) {
+        if (snapshot.hasData) {
           carregarApostila(snapshot.data);
           return SafeArea(
             child: Material(
@@ -78,8 +77,8 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
                   ),
                   SliverList(
                     delegate: SliverChildBuilderDelegate(
-                          (_, index) {
-                        if (index > licoes.length-1) return null;
+                      (_, index) {
+                        if (index > licoes.length - 1) return null;
                         return licoes[index];
                       },
                     ),

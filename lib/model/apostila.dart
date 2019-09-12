@@ -4,17 +4,18 @@ class Apostila {
   final String idioma;
   final List<Licao> licoes;
 
-  Apostila(
-      {this.numero,
-      this.titulo,
-      this.idioma,
-      this.licoes});
+  Apostila({this.numero, this.titulo, this.idioma, this.licoes});
 
-  Apostila.fromJson(Map<String, dynamic> data)
-      : numero = data['numero'],
-        titulo = data['titulo'],
-        idioma = data['idioma'],
-        licoes = data['licoes'];
+  factory Apostila.fromJson(Map<String, dynamic> data) {
+    var l = data['licoes'] as List;
+    List<Licao> listLicao = l.map((i) => Licao.fromJson(i)).toList();
+    return Apostila(
+        numero: data['numero'],
+        titulo: data['titulo'],
+        idioma: data['idioma'],
+        licoes: listLicao
+    );
+  }
 }
 
 class Licao {
@@ -27,7 +28,7 @@ class Licao {
   Licao.fromJson(Map<String, dynamic> data)
       : licao = data['licao'],
         titulo = data['titulo'],
-        catequese = data['catequese'];
+        catequese = Catequese.fromJson(data['catequese']);
 }
 
 class Catequese {
@@ -36,9 +37,15 @@ class Catequese {
 
   Catequese({this.perguntas, this.textos});
 
-  Catequese.fromJson(Map<String, dynamic> data)
-      : perguntas = data['perguntas'],
-        textos = data['textos'];
+  factory Catequese.fromJson(Map<String, dynamic> data) {
+    var p = data['perguntas'] as List;
+    var t = data['textos'] as List;
+
+    List<Pergunta> listPerguntas = p.map((i) => Pergunta.fromJson(i)).toList();
+    List<Texto> listTextos = t.map((i) => Texto.fromJson(i)).toList();
+
+    return Catequese(perguntas: listPerguntas, textos: listTextos);
+  }
 }
 
 class Pergunta {
