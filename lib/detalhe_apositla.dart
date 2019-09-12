@@ -32,7 +32,7 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
     });
   }
 
-  Widget cardLicao(Apostila item) => Center(
+  Widget cardLicao(Apostila item) => Expanded(
     child: Card(
       child: Column(
         mainAxisSize: MainAxisSize.min,

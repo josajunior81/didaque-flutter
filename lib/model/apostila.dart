@@ -1,29 +1,64 @@
 class Apostila {
-  final int numeroLicao;
-  final String tituloApostila;
-  final String tituloLicao;
-  final String catequese;
-  final int numeroApostila;
+  final int numero;
+  final String titulo;
+  final String idioma;
+  final List<Licao> licoes;
 
   Apostila(
-      {this.numeroLicao,
-      this.tituloApostila,
-      this.tituloLicao,
-      this.catequese,
-      this.numeroApostila});
+      {this.numero,
+      this.titulo,
+      this.idioma,
+      this.licoes});
 
   Apostila.fromJson(Map<String, dynamic> data)
-      : numeroLicao = data['numeroLicao'],
-        tituloApostila = data['tituloApostila'],
-        tituloLicao = data['tituloLicao'],
-        catequese = data['catequese'],
-        numeroApostila = data['numeroApostila'];
+      : numero = data['numero'],
+        titulo = data['titulo'],
+        idioma = data['idioma'],
+        licoes = data['licoes'];
 }
 
-class ApostilasList {
-  final List<Apostila> apositlas;
+class Licao {
+  final int licao;
+  final String titulo;
+  final Catequese catequese;
 
-  ApostilasList({this.apositlas});
+  Licao({this.licao, this.titulo, this.catequese});
 
-  ApostilasList.fromJson(List<dynamic> data) : apositlas = data.map((i) => Apostila.fromJson(i)).toList();
+  Licao.fromJson(Map<String, dynamic> data)
+      : licao = data['licao'],
+        titulo = data['titulo'],
+        catequese = data['catequese'];
+}
+
+class Catequese {
+  final List<Pergunta> perguntas;
+  final List<Texto> textos;
+
+  Catequese({this.perguntas, this.textos});
+
+  Catequese.fromJson(Map<String, dynamic> data)
+      : perguntas = data['perguntas'],
+        textos = data['textos'];
+}
+
+class Pergunta {
+  final String pergunta;
+  final String resposta;
+
+  Pergunta({this.pergunta, this.resposta});
+
+  Pergunta.fromJson(Map<String, dynamic> data)
+      : pergunta = data['pergunta'],
+        resposta = data['resposta'];
+}
+
+class Texto {
+  final String texto;
+  final String referencia;
+
+  Texto({this.texto, this.referencia});
+
+  Texto.fromJson(Map<String, dynamic> data)
+      : texto = data['texto'],
+        referencia = data['referencia'];
 }
