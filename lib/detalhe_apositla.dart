@@ -27,19 +27,63 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
     });
   }
 
-  Widget cardLicao(Licao licao) => SizedBox(
-        padding: const EdgeInsets.all(15),
+  Widget buildTextos(List<Texto> textos) {
+    var column = Column(
+      children: <Widget>[],
+    );
+    textos.forEach((t) => column.children.add(Container(
+            child: Column(children: [
+          Padding(
+              padding: EdgeInsets.symmetric(vertical: 2.0, horizontal: 12.0),
+              child: Text(t.texto)),
+          Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Align(
+                  alignment: Alignment.bottomRight, child: Text(t.referencia)))
+        ]))));
+    return column;
+  }
+
+  Widget cardLicao(Licao licao) => Container(
         child: Card(
           child: Column(
             children: [
-              Text(licao.titulo,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-              ListView.builder(
-                  itemCount: licao.catequese.textos.length,
-                  itemBuilder: (_, index) {
-                    return Text(licao.catequese.textos[index].texto);
-                  })
-              ],
+              Row(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 12.0),
+                      child: Text(licao.titulo,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18)),
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: PopupMenuButton(
+                        onSelected: (_) {
+                          setState(() {
+                            debugPrint("menu vei");
+                          });
+                        },
+                        itemBuilder: (_) => [
+                              PopupMenuItem(
+                                child: Row(children: [
+                                  IconButton(
+                                    icon: Icon(Icons.share),
+                                    onPressed: () {},
+                                  ),
+                                  Text("Compartilhar")
+                                ]),
+                              )
+                            ]),
+                  ),
+                ],
+              ),
+              Container(
+                child: buildTextos(licao.catequese.textos),
+              ),
+            ],
           ),
         ),
       );

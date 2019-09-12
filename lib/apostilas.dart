@@ -26,7 +26,7 @@ class _ApostilasWidgetState extends State<ApostilasWidget> {
           'Didaquê',
           style: TextStyle(color: Colors.black, fontFamily: 'GFS Didot'),
         ),
-        backgroundColor: Colors.grey[100],
+        backgroundColor: Colors.grey[400],
       ),
       body: ListView.builder(
         itemCount: itens.length,
