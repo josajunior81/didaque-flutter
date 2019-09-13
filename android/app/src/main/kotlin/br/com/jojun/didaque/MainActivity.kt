@@ -1,4 +1,4 @@
-package br.com.jojun.didaqueflutter
+package br.com.jojun.didaque
 
 import android.os.Bundle
 
