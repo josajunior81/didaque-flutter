@@ -39,7 +39,12 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/apostila1.json
+    - assets/apostila2.json
+    - assets/apostila3.json
+    - assets/apostila4.json
+    - assets/apostila5.json
     - images/top.jpg
+    - images/icon.png
     - images/apostila1.webp
     - images/apostila2.webp
     - images/apostila3.webp

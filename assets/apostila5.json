@@ -1,0 +1,79 @@
+{
+  "titulo": "Evangelho do Reino",
+  "numero": 5,
+  "idioma": "PT",
+  "licoes": [
+    {
+      "licao": 1,
+      "titulo": "A pregação de Jesus e dos apóstolos",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Qual é a única pregação que forma discípulos?",
+            "resposta": "A única pregação que forma discípulos é a pregação do Evangelho do Reino."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "E será pregado este Evangelho do Reino por todo o mundo, para testemunho a todas as nações. Então, virá o fim",
+            "referencia": "Mt 24.14"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 2,
+      "titulo": "O que significa o Reino de Deus?",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que significa confessar Jesus como Senhor?",
+            "resposta": "Confessar Jesus como Senhor significa uma entrega total da vida a ele. Não existe conversão sem consagração."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Se, com a tua boca, confessares Jesus como Senhor e, em teu coração, creres que Deus o ressuscitou dentre os mortos, serás salvo.",
+            "referencia": "Rm 10.9"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 3,
+      "titulo": "O Evangelho do Reino e  o Evangelho das Ofertas",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que um discípulo busca em primeiro lugar?",
+            "resposta": "Um Discípulo busca em primeiro lugar agradar ao seu Senhor, e não a sua própria felicidade"
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Buscai, pois, em primeiro lugar, o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+            "referencia": "Mt 6.33"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 4,
+      "titulo": "O Discípulo e o Religioso",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que é um discípulo?",
+            "resposta": "Um discípulo é alguém que crê em tudo que Cristo diz e faz tudo o que Cristo manda."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Nem todo o que me diz: Senhor, Senhor, entrará no reino dos céus, mas aquele que faz a vontade de meu Pai, que está nos céus.",
+            "referencia": "Mt 7.21"
+          }
+        ]
+      }
+    }
+  ]
+}

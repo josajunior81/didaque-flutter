@@ -15,7 +15,7 @@
         ],
         "textos": [
           {
-            "texto": ".</b><br /><br />\"Também disse Deus; Façamos o homem à nossa imagem conforme a nossa semelhança.",
+            "texto": "Também disse Deus; Façamos o homem à nossa imagem conforme a nossa semelhança.",
             "referencia": "Gn 1.26"
           }
         ]
@@ -122,101 +122,212 @@
       }
     },
     {
-      "numeroLicao": 6,
-      "licao": "Quem são os sacerdotes?",
-      "catequese": "<i>Quem são os sacerdotes na igreja?</i><br /><b>Todos os santos são sacerdotes.</b><br /><br />\"Vós, porém, sois raça eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus, a fim de proclamardes as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz.\" 1 Pe 2.9",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 6,
+      "titulo": "Quem são os sacerdotes?",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Quem são os sacerdotes na igreja?",
+            "resposta": "Todos os santos são sacerdotes."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Vós, porém, sois raça eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus, a fim de proclamardes as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz.",
+            "referencia": "1 Pe 2.9"
+          }
+        ]
+      }      
     },
     {
-      "_id": 34,
-      "numeroLicao": 7,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "Quem edifica a Igreja?",
-      "catequese": "<i>Quem edifica o corpo de Cristo?</i><br /><b>O corpo de Cristo edifica o corpo de Cristo.</b><br /><br />\"E ele mesmo concedeu uns para apóstolos, outros para profetas, outros para evangelistas e outros para pastores e mestres, com vistas ao correto ordenamento dos santos para o desempenho do seu serviço, para a edificação do corpo de Cristo.\" Ef 4.11-12",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 7,
+      "titulo": "Quem edifica a Igreja?",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Quem edifica o corpo de Cristo?",
+            "resposta": "O corpo de Cristo edifica o corpo de Cristo."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "E ele mesmo concedeu uns para apóstolos, outros para profetas, outros para evangelistas e outros para pastores e mestres, com vistas ao correto ordenamento dos santos para o desempenho do seu serviço, para a edificação do corpo de Cristo.",
+            "referencia": "Ef 4.11-12"
+          }
+        ]
+      }
     },
     {
-      "_id": 35,
-      "numeroLicao": 8,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "O ministério de testemunhas (1ª parte)",
-      "catequese": "<i>Como iniciamos o serviço de fazer discípulos?</i><br /><b>Sendo testemunhas e proclamadores.</b><br /><br />\"Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.\" At 1.8",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 8,
+      "titulo": "O ministério de testemunhas (1ª parte)",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Como iniciamos o serviço de fazer discípulos?",
+            "resposta": "Sendo testemunhas e proclamadores."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.",
+            "referencia": "At 1.8"
+          }
+        ]
+      }
     },
     {
-      "_id": 36,
-      "numeroLicao": 9,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "O ministério de testemunhas (2ª parte)",
-      "catequese": "<i>Como iniciamos o serviço de fazer discípulos?</i><br /><b>Sendo testemunhas e proclamadores.</b><br /><br />\"Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.\" At 1.8",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 9,
+      "titulo": "O ministério de testemunhas (2ª parte)",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Como iniciamos o serviço de fazer discípulos?",
+            "resposta": "Sendo testemunhas e proclamadores."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.",
+            "referencia": "At 1.8"
+          }
+        ]
+      }
     },
     {
-      "_id": 37,
-      "numeroLicao": 10,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "O ministério das juntas e ligamentos",
-      "catequese": "<i>O que são juntas e ligamentos no corpo de Cristo?</i><br /><b>Juntas e ligamentos no corpo de Cristo são relações fortes e resistentes entre os seus membros.</b><br /><i>Para que servem as juntas e ligamentos?</i><br /><b>Para unir, alimentar e edificar o corpo de Cristo.</b><br /><br />\"Mas, seguindo a verdade em amor, cresçamos em tudo naquele que é o cabeça, Cristo, de quem todo o corpo, bem ajustado e ligado pelo auxílio de todas as juntas, segundo a justa cooperação de cada parte, efetua o seu próprio aumento para a edificação de si mesmo em amor.\" Ef 4.15-16",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 10,
+      "titulo": "O ministério das juntas e ligamentos",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que são juntas e ligamentos no corpo de Cristo?",
+            "resposta": "Juntas e ligamentos no corpo de Cristo são relações fortes e resistentes entre os seus membros."
+          },
+          {
+            "pergunta": "Para que servem as juntas e ligamentos?",
+            "resposta": "Para unir, alimentar e edificar o corpo de Cristo."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Mas, seguindo a verdade em amor, cresçamos em tudo naquele que é o cabeça, Cristo, de quem todo o corpo, bem ajustado e ligado pelo auxílio de todas as juntas, segundo a justa cooperação de cada parte, efetua o seu próprio aumento para a edificação de si mesmo em amor.",
+            "referencia": "Ef 4.15-16"
+          }
+        ]
+      }
     },
     {
-      "_id": 38,
-      "numeroLicao": 11,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "Juntas e ligamentos de discipulado (1ª parte)",
-      "catequese": "<i>Qual é a função do discipulador?</i><br /><b>Ensinar a guardar todas as coisas que Jesus ordenou.</b><br /><br />\"Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação do século.\" Mt 28.19-20",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 11,
+      "titulo": "Juntas e ligamentos de discipulado (1ª parte)",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Qual é a função do discipulador?",
+            "resposta": "Ensinar a guardar todas as coisas que Jesus ordenou."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação do século.",
+            "referencia": "Mt 28.19-20"
+          }
+        ]
+      }
     },
     {
-      "_id": 39,
-      "numeroLicao": 12,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "Juntas e ligamentos de discipulado (2ª parte)",
-      "catequese": "<i>O que é necessário para ser discipulado?</i><br /><b>Ser manso, humilde e submisso.</b><br /><br />\"... sujeitando-vos uns aos outrosno temor de Cristo.\" Ef 5.21",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 12,
+      "titulo": "Juntas e ligamentos de discipulado (2ª parte)",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "<i>O que é necessário para ser discipulado?",
+            "resposta": "Ser manso, humilde e submisso."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "... sujeitando-vos uns aos outrosno temor de Cristo.",
+            "referencia": "Ef 5.21"
+          }
+        ]
+      }
     },
     {
-      "_id": 40,
-      "numeroLicao": 13,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "Juntas e ligamentos de companheirismo (1ª parte)",
-      "catequese": "<i>Porque o discipulado e o companheirismo são tão importantes?</i><br /><b>Porque unem o corpo por juntas e ligamentos.</b><br /><i>Quais são as principais atitudes no companheirismo?</i><br /><b>Amor, submissão, transparência e perdão.</b><br /><br />\"Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros.\" Jo 13.34",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 13,
+      "titulo": "Juntas e ligamentos de companheirismo (1ª parte)",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Porque o discipulado e o companheirismo são tão importantes?",
+            "resposta": "Porque unem o corpo por juntas e ligamentos."
+          },
+          {
+            "pergunta": "Quais são as principais atitudes no companheirismo?",
+            "resposta": "Amor, submissão, transparência e perdão."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros.",
+            "referencia": "Jo 13.34"
+          }
+        ]
+      }
     },
     {
-      "_id": 41,
-      "numeroLicao": 14,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "Juntas e ligamentos de companheirismo (2ª parte)",
-      "catequese": "<i>Quais são as principais atividades no companheirismo?</i><br /><b>Orar, aconselhar, servir e fazer discípulos.</b><br /><i>Qual é o fruto de tudo isto?</i><br /><b>A edificação do corpo em amor.</b><br /><br />\"Habite ricamente em vós a palavra de Cristo; Instrui-vos e aconselhai-vos mutuamente em toda a sabedoria.\" Cl 3.16",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 14,
+      "titulo": "Juntas e ligamentos de companheirismo (2ª parte)",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Quais são as principais atividades no companheirismo?",
+            "resposta": "Orar, aconselhar, servir e fazer discípulos."
+          },
+          {
+            "pergunta": "Qual é o fruto de tudo isto?",
+            "resposta": "A edificação do corpo em amor."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Habite ricamente em vós a palavra de Cristo; Instrui-vos e aconselhai-vos mutuamente em toda a sabedoria.",
+            "referencia": "Cl 3.16"
+          }
+        ]
+      }
     },
     {
-      "_id": 42,
-      "numeroLicao": 15,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "A necessidade de dar fruto",
-      "catequese": "<i>O que o agricultor exige do ramo?</i><br /><b>Todo ramo deve dar frutos.</b><br /><i>Qual é o fruto que o ramo deve dar?</i><br /><b>A multiplicação da vida de Cristo.</b><br /><br />\"Eu vos escolhi a vós outros e vos designei para que vades e deis frutos, e o vosso fruto permaneça.\" Jo 15.16",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 15,
+      "titulo": "A necessidade de dar fruto",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que o agricultor exige do ramo?",
+            "resposta": "Todo ramo deve dar frutos."
+          },
+          {
+            "pergunta": "Qual é o fruto que o ramo deve dar?",
+            "resposta": "A multiplicação da vida de Cristo."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Eu vos escolhi a vós outros e vos designei para que vades e deis frutos, e o vosso fruto permaneça.",
+            "referencia": "Jo 15.16"
+          }
+        ]
+      }
     },
     {
-      "_id": 43,
-      "numeroLicao": 16,
-      "tituloApostila": "Propósito Eterno",
-      "tituloLicao": "O trabalho nas casas",
-      "catequese": "<i>Qual é o motivo do encontro do grupo caseiro?</i><br /><b>A obra do grupo caseiro é o desenvolvimento do serviço dos santos.</b>",
-      "numeroApostila": 2,
-      "idioma": "PT"
+      "licao": 16,
+      "titulo": "O trabalho nas casas",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Qual é o motivo do encontro do grupo caseiro?.",
+            "resposta": "A obra do grupo caseiro é o desenvolvimento do serviço dos santos"
+          }
+        ]
+      }
     }
   ]
 }

@@ -7,11 +7,6 @@
       "licao": 1,
       "titulo": "Jesus existia antes de todas as coisas",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Jesus existia antes de todas as coisas"
-          }
-        ],
         "textos": [
           {
             "texto": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Ele estava no princípio com Deus. Todas as coisas foram feitas por intermédio dele, e sem ele nada do que foi feito se fez.",
@@ -24,11 +19,6 @@
       "licao": 2,
       "titulo": "Tornou-se homem",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Tornou-se homem"
-          }
-        ],
         "textos": [
           {
             "texto": "... Cristo Jesus, subsistindo em forma de Deus, não considerou o ser igual a Deus coisa a que se devia aferrar; antes, a si mesmo se esvaziou, assumindo a forma de servo, tornando-se em semelhança de homens; e, reconhecido em figura humana, a si mesmo se humilhou, tornando-se obediente até à morte e morte de cruz.",
@@ -41,11 +31,6 @@
       "licao": 3,
       "titulo": "Sua vida foi perfeita e irrepreensível",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Sua vida foi perfeita e irrepreensível"
-          }
-        ],
         "textos": [
           {
             "texto": "… o qual não cometeu pecado, nem na sua boca se achou engano",
@@ -58,11 +43,6 @@
       "licao": 4,
       "titulo": "Sua obra foi tremenda e grandiosa",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Sua obra foi tremenda e grandiosa"
-          }
-        ],
         "textos": [
           {
             "texto": "Como Deus ungiu a Jesus de Nazaré com o Espírito Santo e poder, o qual andou por toda parte, fazendo o bem e curando a todos os oprimidos do diabo, porque Deus era com ele.",
@@ -75,11 +55,6 @@
       "licao": 5,
       "titulo": "Morreu pelos nossos pecados",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Morreu pelos nossos pecados"
-          }
-        ],
         "textos": [
           {
             "texto": "Aquele que não conheceu pecado, Deus o fez pecado por nós, para que nele fôssemos feitos justiça de Deus",
@@ -96,11 +71,6 @@
       "licao": 6,
       "titulo": "Ressuscitou",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Ressuscitou"
-          }
-        ],
         "textos": [
           {
             "texto": "… ao qual Deus ressucitou, rompendo os grilhões da morte…",
@@ -113,11 +83,6 @@
       "licao": 7,
       "titulo": "Foi exaltado",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "Foi exaltado"
-          }
-        ],
         "textos": [
           {
             "texto": "Esteja absolutamente certa, pois, toda a casa de Israel de que a este Jesus, que vós crucificastes, Deus o fez Senhor e Cristo",
@@ -134,11 +99,6 @@
       "licao": 8,
       "titulo": "E Voltará",
       "catequese": {
-        "perguntas": [
-          {
-            "pergunta": "E Voltará"
-          }
-        ],
         "textos": [
           {
             "texto": "Então, aparecerá no céu o sinal do Filho do Homem: todos os povos da terra se lamentarão e verão o Filho do Homem vindo sobre as nuvens do céu, com poder e muita glória.",

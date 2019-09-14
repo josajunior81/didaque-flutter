@@ -1,0 +1,193 @@
+{
+  "titulo": "Vida em Cristo",
+  "numero": 3,
+  "idioma": "PT",
+  "licoes": [
+    {
+      "licao": 1,
+      "titulo": "Jesus é a nossa vida",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Quem é Jesus para nós?",
+            "resposta": "Jesus é a própria vida em nós."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Respondeu-lhe Jesus: Eu sou o caminho, e a verdade, e a vida; ninguém vem ao Pai senão por mim.",
+            "referencia": "Jo 14.6"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 2,
+      "titulo": "Os três aspectos",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Quais são os três aspectos do pecado no homem?",
+            "resposta": "Os três aspectos do pecado no homem são: a condenação, a escravidão e a habitação."
+          }
+        ]
+      }
+    },
+    {
+      "licao": 3,
+      "titulo": "Cristo: completa solução para o pecado",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Quais são os três aspectos da salvação em Cristo?",
+            "resposta": "Em Cristo temos salvação completa: o perdão, a libertação e a glorificação."
+          }
+        ]
+      }
+    },
+    {
+      "licao": 4,
+      "titulo": "Deus é absolutamente santo e justo",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Como Deus vê os pecados dos homens?",
+            "resposta": "Deus é Santo e Justo, Ele ama o pecador, mas abomina o pecado"
+          }
+        ],
+        "textos": [
+          {
+            "texto": "A ira de Deus se revela do céu contra toda impiedade e perversão dos homens que detêm a verdade pela injustiça;",
+            "referencia": "Rm 1.18"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 5,
+      "titulo": "Todos os homens estão condenados",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Qual é o primeiro aspecto do pecado?",
+            "resposta": "Todo homem está condenado ao castigo eterno."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Ora, conhecendo eles a sentença de Deus, de que são passíveis de morte os que tais coisas praticam, não somente as fazem, mas tam-bém aprovam os que assim proce-dem.",
+            "referencia": "Rm 1.32"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 6,
+      "titulo": "A morte de Cristo: a única solução para a condenação",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"O que nos libertou da condenação do pecado?",
+            "resposta": "A morte de Cristo, em nosso lugar, nos libertou da condenação. Assim somos justificados."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Mas Deus prova o seu próprio amor para conosco pelo fato de ter Cristo morrido por nós, sendo nós ainda pecadores. Logo, muito mais agora, sendo justificados pelo seu sangue, seremos por ele salvos da ira.",
+            "referencia": "Rm 5.8-9"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 7,
+      "titulo": "Somos justificados pela fé em Cristo",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Como somos justificados?",
+            "resposta": "Somos justificados pela fé, e não pelo nosso procedimento."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Justificados, pois, mediante a fé, temos paz com Deus por meio de nosso Senhor Jesus Cristo.",
+            "referencia": "Rm 5.1"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 8,
+      "titulo": "A importância das obras",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Se a justificação é pela fé, podemos continuar na prática do pecado?",
+            "resposta": "Se alguém vive na prática do pecado, tem uma fé falsa. A fé que justifica é a mesma que santifica."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Assim, também a fé, se não tiver obras, por si só está morta.",
+            "referencia": "Tg 2.17"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 9,
+      "titulo": "O segredo da vida abundante",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Qual é a chave para a vida em abundância?",
+            "resposta": "A chave da vida em abundância é viver por meio de Cristo."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Nisto se manifestou o amor de Deus em nós: em haver Deus enviado o seu Filho unigênito ao mundo, para vivermos por meio dele.",
+            "referencia": "1Jo 4.9"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 10,
+      "titulo": "Todos os homens são escravos",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"Qual é o segundo aspecto do pecado?",
+            "resposta": "Todo homem é escravo do pecado."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Replicou-lhes Jesus: Em verdade, em verdade vos digo: todo o que comete pecado é escravo do pecado.",
+            "referencia": "Jo 8.34"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 11,
+      "titulo": "A vida de Cristo em nós nos liberta da escravidão",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta":"O que nos liberta da escravidão do pecado?",
+            "resposta": "A vida de Cristo em nós, nos liberta da escravidão. Assim somos santificados."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Estou crucificado com Cristo, logo já não sou eu quem vive, mas Cristo vive em mim...",
+            "referencia": "Gl 2.20a"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -27,10 +27,26 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
     });
   }
 
-  Widget buildTextos(List<Texto> textos) {
+  Widget buildTextos(Catequese catequese) {
+    var textos = catequese.textos;
+    var perguntas = catequese.perguntas;
+
     var column = Column(
       children: <Widget>[],
     );
+
+    perguntas.forEach((p) => column.children.add(Container(
+            child: Column(children: [
+          Padding(
+              padding: EdgeInsets.only(top: 5.0, left: 12.0, right: 12.0),
+              child: Text(p.pergunta,
+                  style: TextStyle(fontWeight: FontWeight.bold))),
+          Padding(
+              padding: EdgeInsets.only(bottom: 15.0, left: 12.0, right: 12.0),
+              child: Text(p.resposta != null ? p.resposta : "",
+                  style: TextStyle(fontStyle: FontStyle.italic)))
+        ]))));
+
     textos.forEach((t) => column.children.add(Container(
             child: Column(children: [
           Padding(
@@ -41,6 +57,7 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
               child: Align(
                   alignment: Alignment.bottomRight, child: Text(t.referencia)))
         ]))));
+
     return column;
   }
 
@@ -61,9 +78,9 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
                   Align(
                     alignment: Alignment.topRight,
                     child: PopupMenuButton(
-                        onSelected: (_) {
+                        onSelected: (context) {
                           setState(() {
-                            debugPrint("menu vei");
+                            Scaffold.of(context).showSnackBar(SnackBar(content: Text('Esse recurso estará disponível em breve!')));
                           });
                         },
                         itemBuilder: (_) => [
@@ -81,7 +98,7 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
                 ],
               ),
               Container(
-                child: buildTextos(licao.catequese.textos),
+                child: buildTextos(licao.catequese),
               ),
             ],
           ),
@@ -89,7 +106,8 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
       );
 
   Future<String> carregarJson() async {
-    return await rootBundle.loadString("assets/apostila1.json");
+    return await rootBundle
+        .loadString("assets/apostila${widget.index + 1}.json");
   }
 
   @override

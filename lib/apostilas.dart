@@ -24,9 +24,10 @@ class _ApostilasWidgetState extends State<ApostilasWidget> {
       appBar: AppBar(
         title: Text(
           'Didaquê',
-          style: TextStyle(color: Colors.black, fontFamily: 'GFS Didot'),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.grey[400],
+        leading: Image(image: AssetImage("images/icon.png")),
+        backgroundColor: Colors.red[700],
       ),
       body: ListView.builder(
         itemCount: itens.length,

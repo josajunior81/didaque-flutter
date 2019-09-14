@@ -1,0 +1,205 @@
+{
+  "titulo": "Comunhão com Deus",
+  "numero": 4,
+  "idioma": "PT",
+  "licoes": [
+    {
+      "licao": 1,
+      "titulo": "Um convite à boa parte",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Qual o tipo de relacionamento o Senhor nos chama?",
+            "resposta": "O Senhor nos chama a um relacionamento pessoal e íntimo com ele."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Já não vos chamo servos, porque o servo não sabe o que faz o seu Senhor; mas tenho-vos chamado amigos, porque tudo quanto ouvi de meu Pai vos tenho dado a conhecer.",
+            "referencia": "Jo 15.15"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 2,
+      "titulo": "A base de nossa comunhão",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Como podemos nos aproximar de Deus?",
+            "resposta": "Jesus é o novo e vivo caminho de acesso a Deus."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Tendo, pois, irmãos, intrepidez para entrar no Santo dos Santos, pelo sangue de Jesus, pelo novo e vivo caminho que ele nos consagrou pelo véu, isto é, pela sua carne, e tendo grande sacerdote sobre a casa de Deus, aproximemo-nos, com sincero coração, em plena certeza de fé, tendo os corações purificados de má consciência ...",
+            "referencia": "Hb 10.19-22"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 3,
+      "titulo": "Orando sem cessar",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que significa orar sem cessar?",
+            "resposta": "Orar sem cessar é manter uma conversação contínua com Deus. O Espírito Santo nos manda orar sem cessar."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Orai sem cessar.",
+            "referencia": "1Ts 5.17"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 4,
+      "titulo": "Dedicando um tempo especial à oração",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que necessitamos além de orar sem cessar?",
+            "resposta": "Necessitamos de momentos exclusivos, íntimos e solenes com o Senhor."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Tu, porém, quando orares, entra no teu quarto, e, fechada a porta, orarás a teu Pai que está em secreto; e teu Pai que vê em secreto, te recompensará.",
+            "referencia": "Mt 6.6"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 5,
+      "titulo": "Dando graças por tudo",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que demonstra o \"dar graças por tudo\"?",
+            "resposta": "O \"dar graças por tudo\" demonstra gratidão e confiança no Senhor."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.",
+            "referencia": "1Ts 5.18"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 6,
+      "titulo": "Louvando de coração",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que é o louvor?",
+            "resposta": "O louvor é o fruto dos lábios que confessam o nome do Senhor."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Por meio de Jesus, pois, ofereçamos a Deus, sempre, sacrifício de louvor, que é o fruto de lábios que confessam o seu nome.",
+            "referencia": "Hb 13.15"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 7,
+      "titulo": "Apresentando orações e súplicas",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Pelo que Deus espera antes de realizar sua vontade?",
+            "resposta": "Deus espera pelas orações e súplicas antes de realizar a sua vontade."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "... com toda oração e súplica, orando em todo tempo no Espírito e para isto vigiando com toda perseverança e súplica por todos os santos.",
+            "referencia": "Ef 6.18"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 8,
+      "titulo": "A eficácia da oração",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Qual é o proveito da oração?",
+            "resposta": "A oração é o nosso trabalho mais eficaz."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "E esta é a confiança que temos para com ele: que, se pedirmos alguma coisa segundo a sua vontade, ele nos ouve. E, se sabemos que ele nos ouve quanto ao que lhe pedimos, estamos certos de que obtemos os pedidos que lhe temos feito.",
+            "referencia": "1Jo 5.14-15"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 9,
+      "titulo": "Jejuando para Deus",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Quais são os frutos do jejum?",
+            "resposta": "O jejum nos quebranta, dá poder à oração e nos torna mais sensíveis à voz de Deus."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "E, servindo eles ao Senhor, e jejuando, disse o Espírito Santo: Separai-me agora a Barnabé e a Saulo para a obra a que os tenho chamado. Então, jejuando e orando, e impondo sobre eles as mãos, os despediram.",
+            "referencia": "At 13.2-3"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 10,
+      "titulo": "Alimentando-se com a Palavra",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "O que a Palavra produz em nós?",
+            "resposta": "A Palavra de Deus nos alimenta, vivifica, produz fé, consola, guia e guarda de pecar."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Jesus, porém, respondeu: Está escrito: Não só de pão viverá o homem, mas de toda palavra que procede da boca de Deus.",
+            "referencia": "Mt 4.4"
+          }
+        ]
+      }
+    },
+    {
+      "licao": 11,
+      "titulo": "Sendo formado pela Palavra",
+      "catequese": {
+        "perguntas": [
+          {
+            "pergunta": "Em que o discípulo deve ser instruído?",
+            "resposta": "Um discípulo deve ser instruído e catequizado em todo o conselho de Deus."
+          }
+        ],
+        "textos": [
+          {
+            "texto": "Habite, ricamente, em vós a palavra de Cristo; instruí-vos e aconselhai-vos mutuamente em toda a sabedoria, louvando a Deus, com salmos, e hinos, e cânticos espirituais, com gratidão, em vosso coração.",
+            "referencia": "Cl 3.16"
+          }
+        ]
+      }
+    }
+  ]
+}
