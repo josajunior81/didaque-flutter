@@ -1,8 +1,20 @@
 import 'package:didaque_flutter/apostilas.dart';
+import 'package:didaque_flutter/app_icons.dart';
 import 'package:didaque_flutter/biblia.dart';
+import 'package:didaque_flutter/custom_icons.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 
-void main() => runApp(DidaqueApp());
+void main() {
+  Crashlytics.instance.enableInDevMode = true;
+
+  FlutterError.onError = Crashlytics.instance.recordFlutterError;
+
+  runApp(DidaqueApp());
+}
+FirebaseAnalytics analytics = FirebaseAnalytics();
 
 /// This Widget is the main application widget.
 class DidaqueApp extends StatelessWidget {
@@ -13,7 +25,10 @@ class DidaqueApp extends StatelessWidget {
     return MaterialApp(
       title: _title,
       theme: ThemeData(fontFamily: 'Montserrat'),
-      home: ApostilasWidget(),
+      home: Home(),
+      navigatorObservers: [
+        FirebaseAnalyticsObserver(analytics: analytics),
+      ],
     );
   }
 }
@@ -27,7 +42,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [ApostilasWidget(), BibliaStatefulWidget()];
+  final List<Widget> _children = [BibliaStatefulWidget(), ApostilasWidget()];
 
   void onTabTapped(int index) {
     setState(() {
@@ -41,9 +56,10 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text(
           'Didaquê',
-          style: TextStyle(fontFamily: 'GFS Didot'),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.grey[100],
+        leading: Image(image: AssetImage("images/icon.png")),
+        backgroundColor: Colors.grey[700],
       ),
       body: Center(
         child: _children[_currentIndex],
@@ -54,12 +70,12 @@ class _HomeState extends State<Home> {
         // this will be set when a new tab is tapped
         items: [
           BottomNavigationBarItem(
-            icon: new Icon(Icons.note),
-            title: new Text('Apostilas'),
+            icon: new Icon(AppIcons.bible),
+            title: new Text('Bíblia'),
           ),
           BottomNavigationBarItem(
-            icon: new Icon(Icons.book),
-            title: new Text('Bíblia'),
+            icon: new Icon(AppIcons.office_25),
+            title: new Text('Apostilas'),
           )
         ],
       ),

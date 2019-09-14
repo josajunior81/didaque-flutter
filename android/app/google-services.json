@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704966534424",
+    "firebase_url": "https://didaque-b887f.firebaseio.com",
+    "project_id": "didaque-b887f",
+    "storage_bucket": "didaque-b887f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704966534424:android:71fcf25fdd37e62e",
+        "android_client_info": {
+          "package_name": "br.com.jojun.didaque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704966534424-ida243l7adt98dugqdgv38gua9v2gkdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvy1LptVpFEWFd3ZDkfvmOZW6tzJTveh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704966534424-ida243l7adt98dugqdgv38gua9v2gkdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

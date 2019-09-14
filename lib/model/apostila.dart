@@ -13,8 +13,7 @@ class Apostila {
         numero: data['numero'],
         titulo: data['titulo'],
         idioma: data['idioma'],
-        licoes: listLicao
-    );
+        licoes: listLicao);
   }
 }
 
@@ -41,8 +40,10 @@ class Catequese {
     var p = data['perguntas'] as List;
     var t = data['textos'] as List;
 
-    List<Pergunta> listPerguntas = p != null ? p.map((i) => Pergunta.fromJson(i)).toList() : new List();
-    List<Texto> listTextos = t != null ?t.map((i) => Texto.fromJson(i)).toList() : new List();
+    List<Pergunta> listPerguntas =
+        p != null ? p.map((i) => Pergunta.fromJson(i)).toList() : new List();
+    List<Texto> listTextos =
+        t != null ? t.map((i) => Texto.fromJson(i)).toList() : new List();
 
     return Catequese(perguntas: listPerguntas, textos: listTextos);
   }

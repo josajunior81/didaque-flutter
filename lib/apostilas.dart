@@ -20,22 +20,11 @@ class _ApostilasWidgetState extends State<ApostilasWidget> {
       listItem(4, context)
     ];
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Didaquê',
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-        ),
-        leading: Image(image: AssetImage("images/icon.png")),
-        backgroundColor: Colors.red[700],
-      ),
-      body: ListView.builder(
+    return ListView.builder(
         itemCount: itens.length,
         itemBuilder: (BuildContext ctxt, int index) {
           return itens[index];
-        },
-      ),
-    );
+        });
   }
 
   void showDetails(int index, BuildContext context) {

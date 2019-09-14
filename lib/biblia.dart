@@ -1,4 +1,7 @@
+import 'dart:convert';
+import 'package:didaque_flutter/model/livro.dart';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 
 class BibliaStatefulWidget extends StatefulWidget {
   BibliaStatefulWidget({Key key}) : super(key: key);
@@ -10,97 +13,33 @@ class BibliaStatefulWidget extends StatefulWidget {
 class _BibliaStatefulWidgetState extends State<BibliaStatefulWidget> {
   @override
   Widget build(BuildContext context) {
-    Widget listItem(Color color, String title, String image) => GestureDetector(
-          onTap: () {
-            Scaffold.of(context).showSnackBar(SnackBar(content: Text(title)));
-          },
-          child: Container(
-            height: 150.0,
-            color: color,
-            child: Row(
-              children: [
-                Image.asset(image),
-                Expanded(
-                  child: Center(
-                    child: Text(
-                      "$title",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 14.0,
-                          fontWeight: FontWeight.bold),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
+    Future<Livros> carregarLivros() async {
+      final response = await http.get('https://bibleapi.co/api/books/');
 
-    Color getColor(int index) {
-      switch (index) {
-        case 0:
-          return Colors.blueGrey[300];
-        case 1:
-          return Colors.orange[200];
-        case 2:
-          return Colors.red[300];
-        case 3:
-          return Colors.green[300];
-        case 4:
-          return Colors.brown[300];
+      if (response.statusCode == 200) {
+        // If server returns an OK response, parse the JSON.
+        return Livros.fromJson(json.decode(response.body));
+      } else {
+        // If that response was not OK, throw an error.
+        throw Exception('Failed to load post');
       }
     }
 
-    String getImage(int index) {
-      switch (index) {
-        case 0:
-          return "images/apostila1.webp";
-        case 1:
-          return "images/apostila2.webp";
-        case 2:
-          return "images/apostila3.webp";
-        case 3:
-          return "images/apostila4.webp";
-        case 4:
-          return "images/apostila5.webp";
-      }
+    Widget gridViewLivros(List<Livro> livros) {
+      return GridView.builder(
+          gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: livros.length),
+          itemBuilder: (BuildContext context, int index) {
+            return Text(livros[index].abbrev);
+          });
     }
 
-    String getTitle(int index) {
-      switch (index) {
-        case 0:
-          return "Princípios Elementares";
-        case 1:
-          return "O Propósito Eterno";
-        case 2:
-          return "Vida em Cristo";
-        case 3:
-          return "Comunhão com Deus";
-        case 4:
-          return "Evangelho do Reino";
-      }
-    }
-
-    return Scaffold(
-      body: CustomScrollView(
-        slivers: <Widget>[
-          SliverGrid(
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-
-                ///no.of items in the horizontal axis
-                crossAxisCount: 2),
-            delegate: SliverChildBuilderDelegate(
-              (BuildContext context, int index) {
-                if (index > 4) return null;
-                return listItem(
-                    getColor(index), getTitle(index), getImage(index));
-              },
-              childCount: 5,
-            ),
-          )
-        ],
-      ),
-    );
+    return new FutureBuilder<Livros>(
+        future: carregarLivros(),
+        builder: (context, snapshot) {
+          return (snapshot.hasData)
+              ? gridViewLivros(snapshot.data.livros)
+              : new Center(child: new CircularProgressIndicator());
+        });
   }
 }
