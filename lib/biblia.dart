@@ -26,12 +26,30 @@ class _BibliaStatefulWidgetState extends State<BibliaStatefulWidget> {
     }
 
     Widget gridViewLivros(List<Livro> livros) {
-      return GridView.builder(
-          gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: livros.length),
-          itemBuilder: (BuildContext context, int index) {
-            return Text(livros[index].abbrev);
-          });
+      return Padding(
+          padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 12.0),
+          child: GridView.builder(
+              itemCount: livros.length,
+              gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 6),
+              itemBuilder: (BuildContext context, int index) {
+                return Material(
+                    child: InkWell(
+                        onTap: () => {},
+                        child: Container(
+                            decoration: const BoxDecoration(
+                                border: Border(
+                              top: BorderSide(width: 1.0, color: Colors.black),
+                              left: BorderSide(width: 1.0, color: Colors.black),
+                              right:
+                                  BorderSide(width: 1.0, color: Colors.black),
+                              bottom:
+                                  BorderSide(width: 1.0, color: Colors.black),
+                            )),
+                            child: Center(
+                                child: Text(
+                                    livros[index].abbrev.toUpperCase())))));
+              }));
     }
 
     return new FutureBuilder<Livros>(
