@@ -3,6 +3,8 @@ import 'package:didaque_flutter/model/livro.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import 'leitor_biblia.dart';
+
 class BibliaStatefulWidget extends StatefulWidget {
   BibliaStatefulWidget({Key key}) : super(key: key);
 
@@ -35,7 +37,7 @@ class _BibliaStatefulWidgetState extends State<BibliaStatefulWidget> {
               itemBuilder: (BuildContext context, int index) {
                 return Material(
                     child: InkWell(
-                        onTap: () => {},
+                        onTap: () => { _abrirVersiculos(context, livros, index)},
                         child: Container(
                             decoration: const BoxDecoration(
                                 border: Border(
@@ -59,5 +61,11 @@ class _BibliaStatefulWidgetState extends State<BibliaStatefulWidget> {
               ? gridViewLivros(snapshot.data.livros)
               : new Center(child: new CircularProgressIndicator());
         });
+  }
+
+  _abrirVersiculos(BuildContext context, List<Livro> livros, int index) {
+    Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+      return LeitorBibliaStatefulWidget(livros, index);
+    }));
   }
 }

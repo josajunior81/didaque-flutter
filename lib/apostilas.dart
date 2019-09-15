@@ -27,7 +27,7 @@ class _ApostilasWidgetState extends State<ApostilasWidget> {
         });
   }
 
-  void showDetails(int index, BuildContext context) {
+  void _showDetails(int index, BuildContext context) {
     Navigator.of(context).push(MaterialPageRoute(builder: (context) {
       return ApostilaDetalhesWidget(index);
     }));
@@ -37,7 +37,7 @@ class _ApostilasWidgetState extends State<ApostilasWidget> {
         tag: position,
         child: Material(
           child: InkWell(
-            onTap: () => showDetails(position, context),
+            onTap: () => _showDetails(position, context),
             child: Container(
               height: 150.0,
               color: Utils.getColor(position),
