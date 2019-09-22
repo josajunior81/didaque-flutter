@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>704966534424-3gn4tnjf0vrve6qa5evso5pfb2ko30hh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.704966534424-3gn4tnjf0vrve6qa5evso5pfb2ko30hh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_cLRNK6tYd4_YBEZL8EMitGngXTTvadQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>704966534424</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.jojun</string>
+	<key>PROJECT_ID</key>
+	<string>didaque-b887f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>didaque-b887f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:704966534424:ios:2ce07810a5da1d63846a6d</string>
+	<key>DATABASE_URL</key>
+	<string>https://didaque-b887f.firebaseio.com</string>
+</dict>
+</plist>
