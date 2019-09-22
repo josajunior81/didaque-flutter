@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:didaque_flutter/model/bible.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
@@ -6,7 +7,7 @@ import 'package:sqflite/sqflite.dart';
 class DatabaseHelper {
   static final _databaseName = "DidaqueDB.db";
   static final _databaseVersion = 1;
-  static final table = 'bible';
+  static final table = 'Book';
 
   final String columnBookName = "book_name";
   final String columnBookId = "book_id";
@@ -48,5 +49,20 @@ class DatabaseHelper {
           "$columnParagraphNumber TEXT"
           ")");
     });
+  }
+
+  insert(Book book) async {
+    final db = await database;
+    var res = await db.insert(table, book.toJson());
+    return res;
+  }
+
+  getBooks() async {
+    final db = await database;
+    var res =await  db.query(table, where: "id = ?", whereArgs: [id]);
+  }
+
+  getBook(final String bookId) {
+
   }
 }
