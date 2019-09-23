@@ -7,7 +7,8 @@ import 'package:sqflite/sqflite.dart';
 class DatabaseHelper {
   static final _databaseName = "DidaqueDB.db";
   static final _databaseVersion = 1;
-  static final table = 'Book';
+  static final tableBook = 'book';
+  static final tableBible = 'bible';
 
   final String columnBookName = "book_name";
   final String columnBookId = "book_id";
@@ -37,8 +38,9 @@ class DatabaseHelper {
     String path = join(documentsDirectory.path, _databaseName);
     return await openDatabase(path, version: 1, onOpen: (db) {},
         onCreate: (Database db, int version) async {
-      await db.execute("CREATE TABLE $table ("
+      await db.execute("CREATE TABLE $tableBook ("
           "id INTEGER PRIMARY KEY,"
+          "bible_id INTEGER,"
           "$columnBookName TEXT,"
           "$columnBookId TEXT,"
           "$columnBookOrder TEXT,"
@@ -48,21 +50,30 @@ class DatabaseHelper {
           "$columnVerseText TEXT,"
           "$columnParagraphNumber TEXT"
           ")");
+      await db.execute("CREATE TABLE $tableBible ("
+          "id INTEGER PRIMARY KEY,"
+          "volume TEXT"
+          ")");
     });
   }
 
-  insert(Book book) async {
+  insert(Map<String, dynamic> object, String table) async {
     final db = await database;
-    var res = await db.insert(table, book.toJson());
+    var res = await db.insert(table, object);
     return res;
   }
 
-  getBooks() async {
+  getBibleByVolume(String volume) async {
     final db = await database;
-    var res =await  db.query(table, where: "id = ?", whereArgs: [id]);
+    var res =
+        await db.query(tableBible, where: "volume = ?", whereArgs: [volume]);
+    return res.isNotEmpty ? Bible.fromJson(res.first) : Null;
   }
 
-  getBook(final String bookId) {
-
+  getBook(final String bookId) async {
+    final db = await database;
+    var res = await db
+        .query(tableBook, where: "$columnBookId = ?", whereArgs: [bookId]);
+    return res.isNotEmpty ? Book.fromJson(res.first) : Null;
   }
 }

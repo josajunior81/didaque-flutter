@@ -28,16 +28,26 @@ class Book {
       'chapter_title': chapterTitle,
       'verse_id': verseId,
       'verse_text': verseText,
-      'paragraph_number': paragraphNumber,
+      'paragraph_number': paragraphNumber
   };
 }
 
 class Bible {
-//  final String volume;
+  final String volume;
   List<Book> books;
 
-  Bible({this.books});
+  Bible({this.books, this.volume});
 
-  Bible.fromJson(List<dynamic> data)
-      : books = data.map((i) => Book.fromJson(i)).toList();
+  factory Bible.fromJson(Map<String, dynamic> data) {
+    var l = data['books'] as List;
+    List<Book> books = l.map((i) => Book.fromJson(i)).toList();
+    return Bible(
+        volume: data['volume'],
+        books: books);
+  }
+
+  Map<String, dynamic> toJson() =>  {
+    'volume': volume,
+    'books': books
+  };
 }
