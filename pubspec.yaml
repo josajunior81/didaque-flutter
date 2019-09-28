@@ -49,6 +49,7 @@ flutter:
     - assets/apostila3.json
     - assets/apostila4.json
     - assets/apostila5.json
+    - assets/biblia.db
     - images/top.jpg
     - images/icon.png
     - images/apostila1.webp

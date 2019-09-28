@@ -2,6 +2,7 @@ import 'package:didaque_flutter/apostilas.dart';
 import 'package:didaque_flutter/app_icons.dart';
 import 'package:didaque_flutter/biblia.dart';
 import 'package:didaque_flutter/custom_icons.dart';
+import 'package:didaque_flutter/leitor_biblia.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
@@ -42,7 +43,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [BibliaStatefulWidget(), ApostilasWidget()];
+  final List<Widget> _children = [LeitorBibliaStatefulWidget(), ApostilasWidget()];
 
   void onTabTapped(int index) {
     setState(() {
@@ -53,14 +54,14 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Didaquê',
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-        ),
-        leading: Image(image: AssetImage("images/icon.png")),
-        backgroundColor: Colors.grey[700],
-      ),
+//      appBar: AppBar(
+//        title: Text(
+//          'Didaquê',
+//          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+//        ),
+//        leading: Image(image: AssetImage("images/icon.png")),
+//        backgroundColor: Colors.grey[700],
+//      ),
       body: Center(
         child: _children[_currentIndex],
       ),
