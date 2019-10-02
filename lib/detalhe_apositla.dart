@@ -75,26 +75,28 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
                               fontWeight: FontWeight.bold, fontSize: 18)),
                     ),
                   ),
-                  Align(
-                    alignment: Alignment.topRight,
-                    child: PopupMenuButton(
-                        onSelected: (context) {
-                          setState(() {
-                            Scaffold.of(context).showSnackBar(SnackBar(content: Text('Esse recurso estará disponível em breve!')));
-                          });
-                        },
-                        itemBuilder: (_) => [
-                              PopupMenuItem(
-                                child: Row(children: [
-                                  IconButton(
-                                    icon: Icon(Icons.share),
-                                    onPressed: () {},
-                                  ),
-                                  Text("Compartilhar")
-                                ]),
-                              )
-                            ]),
-                  ),
+//                  Align(
+//                    alignment: Alignment.topRight,
+//                    child: PopupMenuButton(
+//                        onSelected: (context) {
+//                          setState(() {
+//                            Scaffold.of(context).showSnackBar(SnackBar(
+//                                content: Text(
+//                                    'Esse recurso estará disponível em breve!')));
+//                          });
+//                        },
+//                        itemBuilder: (_) => [
+//                              PopupMenuItem(
+//                                child: Row(children: [
+//                                  IconButton(
+//                                    icon: Icon(Icons.share),
+//                                    onPressed: () {},
+//                                  ),
+//                                  Text("Compartilhar")
+//                                ]),
+//                              )
+//                            ]),
+//                  ),
                 ],
               ),
               Container(
