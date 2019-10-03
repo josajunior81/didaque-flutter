@@ -56,7 +56,7 @@ class _LeitorBibliaStatefulWidgetState
       if (_controller.offset >= _controller.position.maxScrollExtent &&
           !_controller.position.outOfRange) {
         setState(() {
-          mostarBottomBar = true;
+//          mostarBottomBar = true;
         });
       } else if (_controller.offset <= _controller.position.minScrollExtent &&
           !_controller.position.outOfRange) {
@@ -162,28 +162,36 @@ class _LeitorBibliaStatefulWidgetState
                       itemBuilder: (_, index) {
                         return capituloWidget(list[index]);
                       })),
-              Visibility(
-                visible: mostarBottomBar,
+              Offstage(
+                offstage: mostarBottomBar,
                 child: AnimatedOpacity(
-                  opacity: mostarBottomBar ? 1.0 : 0.0,
-                  duration: Duration(milliseconds: 3500),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      FloatingActionButton(
-                        backgroundColor: Colors.grey[700],
-                        onPressed: (() {}),
-                        child: Icon(Icons.arrow_back_ios),
-                      ),
-                      Text(_livroSelecionado != null
-                          ? "${_livroSelecionado} ${_capituloSelecionado}"
-                          : ""),
-                      FloatingActionButton(
-                        backgroundColor: Colors.grey[700],
-                        onPressed: (() {}),
-                        child: Icon(Icons.arrow_forward_ios),
-                      ),
-                    ],
+                  opacity: getOpacity(),
+                  duration: Duration(milliseconds: 500),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(1.0),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        FloatingActionButton(
+                          backgroundColor: Colors.grey[700],
+                          onPressed: (() {}),
+                          child: Icon(Icons.arrow_back_ios),
+                        ),
+                        Text(
+                          _livroSelecionado != null
+                              ? "${_livroSelecionado} ${_capituloSelecionado}"
+                              : "",
+                          style: TextStyle(fontSize: 18),
+                        ),
+                        FloatingActionButton(
+                          backgroundColor: Colors.grey[700],
+                          onPressed: (() {}),
+                          child: Icon(Icons.arrow_forward_ios),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               )
@@ -191,6 +199,8 @@ class _LeitorBibliaStatefulWidgetState
           ),
         ),
       );
+
+  double getOpacity() => mostarBottomBar ? 0.0 : 1.0;
 
   Widget capituloWidget(Texto texto) {
     var titulo = null;
