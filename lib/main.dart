@@ -1,7 +1,6 @@
 import 'package:didaque_flutter/apostilas.dart';
 import 'package:didaque_flutter/app_icons.dart';
-import 'package:didaque_flutter/biblia.dart';
-import 'package:didaque_flutter/custom_icons.dart';
+import 'package:didaque_flutter/inicio.dart';
 import 'package:didaque_flutter/leitor_biblia.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
@@ -43,25 +42,32 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [LeitorBibliaStatefulWidget(), ApostilasWidget()];
+  final List<Widget> _children = [InicioStatelessWidget(), Text("Biblia"), ApostilasWidget()];
 
   void onTabTapped(int index) {
     setState(() {
-      _currentIndex = index;
+      if (index == 1) {
+        _currentIndex = 0;
+        Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+          return LeitorBibliaStatefulWidget();
+        }));
+      } else {
+        _currentIndex = index;
+      }
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-//      appBar: AppBar(
-//        title: Text(
-//          'Didaquê',
-//          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-//        ),
-//        leading: Image(image: AssetImage("images/icon.png")),
-//        backgroundColor: Colors.grey[700],
-//      ),
+      appBar: AppBar(
+        title: Text(
+          'Didaquê',
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+        leading: Image(image: AssetImage("images/icon.png")),
+        backgroundColor: Colors.grey[700],
+      ),
       body: Center(
         child: _children[_currentIndex],
       ),
@@ -70,6 +76,10 @@ class _HomeState extends State<Home> {
         currentIndex: _currentIndex,
         // this will be set when a new tab is tapped
         items: [
+          BottomNavigationBarItem(
+            icon: new Icon(Icons.home),
+            title: new Text('Início'),
+          ),
           BottomNavigationBarItem(
             icon: new Icon(AppIcons.bible),
             title: new Text('Bíblia'),
