@@ -5,3 +5,54 @@ Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smash
 from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>
 Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>
 from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+
+
+             Offstage(
+                offstage: mostarBottomBar,
+                child: AnimatedOpacity(
+                  opacity: getOpacity(),
+                  duration: Duration(milliseconds: 500),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(1.0),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        IconButton(
+                          color: Colors.grey[700],
+                          onPressed: (() {
+                            setState(() {
+                              if (_capituloSelecionado > 1) {
+                                _capituloSelecionado -= 1;
+                                pageController
+                                    .jumpToPage(_capituloSelecionado - 1);
+                              }
+                            });
+                          }),
+                          icon: Icon(Icons.arrow_back_ios),
+                        ),
+                        Text(
+                          _livroSelecionado != null
+                              ? "${_livroSelecionado}: ${_capituloSelecionado}"
+                              : "",
+                          style: TextStyle(fontSize: 16),
+                        ),
+                        IconButton(
+                          color: Colors.grey[700],
+                          onPressed: (() {
+                            setState(() {
+                              if (_capituloSelecionado < listCapitulos.length) {
+                                _capituloSelecionado += 1;
+                                pageController
+                                    .jumpToPage(_capituloSelecionado - 1);
+                              }
+                            });
+                          }),
+                          icon: Icon(Icons.arrow_forward_ios),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              )

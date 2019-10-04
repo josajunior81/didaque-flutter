@@ -42,7 +42,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [InicioStatelessWidget(), Text("Biblia"), ApostilasWidget()];
+  final List<Widget> _children = [InicioStatefullWidget(), Text("Biblia"), ApostilasWidget()];
 
   void onTabTapped(int index) {
     setState(() {
