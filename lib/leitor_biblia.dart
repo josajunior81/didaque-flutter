@@ -46,18 +46,18 @@ class _LeitorBibliaStatefulWidgetState
       });
     });
 
-//    _controller.addListener(() {
-//      if (_controller.position.userScrollDirection == ScrollDirection.forward) {
-//        setState(() {
-//          mostarBottomBar = false;
-//        });
-//      } else if (_controller.position.userScrollDirection ==
-//          ScrollDirection.reverse) {
-//        setState(() {
-//          mostarBottomBar = true;
-//        });
-//      }
-//    });
+    _controller.addListener(() {
+      if (_controller.position.userScrollDirection == ScrollDirection.forward) {
+        setState(() {
+          mostarBottomBar = false;
+        });
+      } else if (_controller.position.userScrollDirection ==
+          ScrollDirection.reverse) {
+        setState(() {
+          mostarBottomBar = true;
+        });
+      }
+    });
 
     carregarCapitulos() async {
       listCapitulos = await Texto.getCapitulos(_livroSelecionado);

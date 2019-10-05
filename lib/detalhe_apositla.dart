@@ -5,6 +5,7 @@ import 'package:didaque_flutter/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:flutter/services.dart';
+import 'package:share/share.dart';
 
 class ApostilaDetalhesWidget extends StatefulWidget {
   final int index;
@@ -75,28 +76,31 @@ class _ApostilaDetalhesState extends State<ApostilaDetalhesWidget> {
                               fontWeight: FontWeight.bold, fontSize: 18)),
                     ),
                   ),
-//                  Align(
-//                    alignment: Alignment.topRight,
-//                    child: PopupMenuButton(
-//                        onSelected: (context) {
-//                          setState(() {
-//                            Scaffold.of(context).showSnackBar(SnackBar(
-//                                content: Text(
-//                                    'Esse recurso estará disponível em breve!')));
-//                          });
-//                        },
-//                        itemBuilder: (_) => [
-//                              PopupMenuItem(
-//                                child: Row(children: [
-//                                  IconButton(
-//                                    icon: Icon(Icons.share),
-//                                    onPressed: () {},
-//                                  ),
-//                                  Text("Compartilhar")
-//                                ]),
-//                              )
-//                            ]),
-//                  ),
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: PopupMenuButton(
+                        onSelected: (context) {
+                          setState(() {
+                            Scaffold.of(context).showSnackBar(SnackBar(
+                                content: Text(
+                                    'Esse recurso estará disponível em breve!')));
+                          });
+                        },
+                        itemBuilder: (_) => [
+                              PopupMenuItem(
+                                child: Row(children: [
+                                  IconButton(
+                                    icon: Icon(Icons.share),
+                                    onPressed: () {
+                                      setState(() {
+                                        Share.share("${licao.catequese.textos[0].texto}");
+                                      });
+                                    },
+                                  )
+                                ]),
+                              )
+                            ]),
+                  ),
                 ],
               ),
               Container(
