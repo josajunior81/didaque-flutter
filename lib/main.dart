@@ -1,18 +1,24 @@
+import 'dart:async';
+
 import 'package:didaque_flutter/apostilas.dart';
 import 'package:didaque_flutter/app_icons.dart';
 import 'package:didaque_flutter/inicio.dart';
 import 'package:didaque_flutter/leitor_biblia.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 
-void main() {
-  Crashlytics.instance.enableInDevMode = true;
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runZonedGuarded(() {
+    runApp(DidaqueApp());
+  }
+  , FirebaseCrashlytics.instance.recordError);
 
-  FlutterError.onError = Crashlytics.instance.recordFlutterError;
-
-  runApp(DidaqueApp());
 }
 FirebaseAnalytics analytics = FirebaseAnalytics();
 
